@@ -1948,6 +1948,15 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+  .list-inline-item {
+  display: block;
+}
+
+.top-logo{
+  height: 40px;
+  width: 40px;
+}
+
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
@@ -1959,6 +1968,9 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
+  .list-inline-item {
+  display: block;
+}
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
@@ -6098,7 +6110,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #656BDA !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9800,7 +9812,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #656BDA !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10105,7 +10117,23 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 1.5rem;
+  line-height: 5rem;
+}
+
+.logox{
+  height: 3rem;
+  width: 3rem;
+  margin-right: 1rem;
+  margin-right: 1rem;
+}
+
+.main-logo{
+  height: 150px;
+  width: 150px;
+}
+.logo-holder{
+  visibility: hidden;
 }
 
 section.resume-section {
